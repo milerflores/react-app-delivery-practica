@@ -15,11 +15,11 @@ function App() {
         <input type="text" name="user" id="user" placeholder='Usuario' />
         <input type="password" name="password" id="password" placeholder='Contraseña' />
       </section>
-      <section className='btn-login'>
+      <section className='accion-login'>
         <span>¿Olvidaste tu contraseña?</span>
-        <button>login</button>
+        <button className='btn btn-login'>Iniciar sesion</button>
         <span>o</span>
-        <button>Create una cuenta</button>
+        <button className='btn btn-create-account'>Create una cuenta</button>
       </section>
     </>
   )
