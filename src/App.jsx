@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className='logo'>
-        <img src='Motorizado.png'></img>
+        <img src='Motorizado.svg'></img>
       </div>
       <section className='title'>
         <h1 className='title-h1'>Chaskys</h1>
@@ -17,9 +17,9 @@ function App() {
       </section>
       <section className='accion-login'>
         <span>¿Olvidaste tu contraseña?</span>
-        <button className='btn btn-login'>Iniciar sesion</button>
+        <button className='btn btn-login'>Iniciar Sesión</button>
         <span>o</span>
-        <button className='btn btn-create-account'>Create una cuenta</button>
+        <button className='btn btn-create-account'>Crea una cuenta</button>
       </section>
     </>
   )
